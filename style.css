@@ -1,0 +1,81 @@
+
+
+
+body{
+    background-image: url(img/foto4.jpg);
+    background-color: lightgray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    
+}
+
+.title{
+
+    
+    display: flex;
+    
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    font: bold 1.5rem serif;   
+    margin-bottom: 20px;
+   
+}
+
+
+#centralizar{
+    position:absolute; 
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+
+.divEntrada{
+    background-color: aqua;
+    width: 200px;
+    padding: 30px;
+    border-color: black;
+    border-radius: 50px;
+    border-style:dashed;
+    
+
+}
+.divSaida{
+    
+    background-color: aqua;
+    width: 200px;
+    padding: 30px;
+    border-color: black;
+    border-radius: 50px;
+    border-style:dashed;
+    
+
+}
+
+.btn {
+    width: 270px;
+    height: 50px;
+    font: bold 1.5rem serif;
+    background: #000;
+    color: rgb(255,198,0);
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+
+}
+.caixaTextoEntrada{
+    height: 30px;
+    font-size: 15px;
+}
+.caixaTextoSaida{
+    text-align: left;
+    border: solid;   
+
+  height: 100px;
+  width: 200px;
+  
+}
